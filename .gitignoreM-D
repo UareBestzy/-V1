@@ -1,0 +1,33 @@
+# secrets
+Net/huawei_cloud.conf
+Net/*KEY*.txt
+Net/DEVICES-KEY-*.txt
+Net/IMX6ULL_MQTT_ACCESS-KEY.txt
+
+# kernel build outputs
+*.o
+*.ko
+*.mod.c
+*.mod.o
+Module.symvers
+modules.order
+.tmp_versions/
+
+# app build outputs
+Net/huawei_mqtt_client
+UI/smart_home_panel
+test_app/dht11_test
+test_app/fan_test
+test_app/motor_test
+test_app/motor_test_TB6612
+test_app/rd03_test
+test_app/rd03_monitor
+test_app/sg90_test
+test_app/sr501_test
+
+# Qt generated
+UI/moc_*
+UI/*.o
+UI/Makefile
+UI/.qmake.stash
+

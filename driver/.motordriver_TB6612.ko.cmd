@@ -1,0 +1,1 @@
+cmd_/home/book/xuexi/智能家居源码/yuan_rebuilt/motordriver_TB6612.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/xuexi/智能家居源码/yuan_rebuilt/motordriver_TB6612.ko /home/book/xuexi/智能家居源码/yuan_rebuilt/motordriver_TB6612.o /home/book/xuexi/智能家居源码/yuan_rebuilt/motordriver_TB6612.mod.o ;  true

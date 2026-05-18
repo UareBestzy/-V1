@@ -1,0 +1,35 @@
+# 华为云 IoTDA MQTT 配置。
+# 可复制到 /etc/huawei_cloud.conf，或运行程序时把配置文件路径作为第 1 个参数传入。
+
+# 设备接入地址。使用实例详情页“设备接入”里的 MQTTS(8883) 接入地址。
+server_address=46a22f6f08.st1.iotda-device.cn-north-4.myhuaweicloud.com
+
+# 在华为云产品下创建设备后填写。
+device_id=6a082ae5cbb0cf6bb95b6975_imx6ull
+device_secret=wobujidemima1
+
+# 华为云产品模型里的服务 ID，必须和控制台产品模型保持一致。
+service_id=smart_home
+
+# 可选。host 留空时默认使用 server_address。
+host=
+port=8883
+use_tls=1
+connect_timeout_ms=8000
+
+# 时间单位：秒。
+report_interval=1
+keepalive=120
+
+# 华为云 IoTDA 默认 Topic。
+# 如果没有使用自定义 Topic，这里保持为空即可。
+property_up_topic=
+property_down_topic=
+
+# yuan_rebuilt 驱动对应的设备节点。
+dht_device=/dev/querydht11
+sr501_device=/dev/mysr501
+rd03_gpio_device=/dev/myrd03
+rd03_serial_device=/dev/ttymxc5
+fan_device=/dev/fanmotor
+servo_device=/dev/sg90

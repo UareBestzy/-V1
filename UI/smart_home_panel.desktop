@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=智能家居
+Comment=打开智能家居雷达测距与设备控制界面
+Exec=/root/yuan_rebuilt/UI/start_smart_home_panel.sh
+Icon=applications-system
+Terminal=false
+Categories=Utility;
