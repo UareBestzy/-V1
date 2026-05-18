@@ -1,1 +1,0 @@
-cmd_/home/book/xuexi/智能家居源码/yuan_rebuilt/fandriver.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/xuexi/智能家居源码/yuan_rebuilt/fandriver.ko /home/book/xuexi/智能家居源码/yuan_rebuilt/fandriver.o /home/book/xuexi/智能家居源码/yuan_rebuilt/fandriver.mod.o ;  true
